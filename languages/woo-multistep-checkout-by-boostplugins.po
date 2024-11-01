@@ -1,0 +1,441 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Multistep Checkout by BoostPlugins\n"
+"POT-Creation-Date: 2018-06-19 18:47+0530\n"
+"PO-Revision-Date: 2018-06-19 18:48+0530\n"
+"Last-Translator: \n"
+"Language-Team: BoostPlugins <hello@boostplugins.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+
+#: inc/bpwcmsc_options.php:8
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: inc/bpwcmsc_options.php:22
+msgid "General Settings"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:23
+msgid "Step Options"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:24
+msgid "Step layout"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:28
+msgid "WooCommerce Multistep Checkout"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:36
+msgid "Buttons Text"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:39
+msgid "Skip Login button label"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:45
+msgid "Next Button label"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:51
+msgid "Previous Button label"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:57
+msgid "Place Order Button label"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:63
+msgid "Validation Error Messages"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:66
+msgid "Required Field"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:72
+msgid "Invalid Email"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:78
+msgid "Invalid Phone"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:84
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:22
+msgid "Invalid Postcode"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:90
+msgid "Terms and condition"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:101
+msgid "Steps customization options"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:102
+msgid "Various options for your checkout steps."
+msgstr ""
+
+#: inc/bpwcmsc_options.php:106
+msgid "Step Titles"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:107
+msgid "Page Title"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:108
+msgid "Page Text"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:109
+msgid "Step Option"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:126 inc/bpwcmsc_options.php:151
+#: inc/bpwcmsc_options.php:226 inc/bpwcmsc_options.php:289
+#: inc/bpwcmsc_options.php:314 inc/bpwcmsc_options.php:361
+#: inc/bpwcmsc_options.php:379
+msgid "Show"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:132 inc/bpwcmsc_options.php:157
+#: inc/bpwcmsc_options.php:232 inc/bpwcmsc_options.php:295
+#: inc/bpwcmsc_options.php:320 inc/bpwcmsc_options.php:367
+#: inc/bpwcmsc_options.php:385
+msgid "Hide"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:200 inc/bpwcmsc_options.php:263
+#: inc/bpwcmsc_options.php:438 inc/bpwcmsc_options.php:457
+msgid "Yes"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:206 inc/bpwcmsc_options.php:269
+#: inc/bpwcmsc_options.php:444 inc/bpwcmsc_options.php:463
+msgid "No"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:209
+msgid "If you want to combine Billing & Shipping?"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:272
+msgid "If you want to combine Order & Payment?"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:301
+msgid "Show/Hide Registration in steps"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:302
+msgid ""
+"Enable customer registration on the \"My account\" page from WooCommerce "
+"Settings."
+msgstr ""
+
+#: inc/bpwcmsc_options.php:323
+msgid "Works only if Login step is shown."
+msgstr ""
+
+#: inc/bpwcmsc_options.php:327
+msgid "Change coupon form placement"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:332
+msgid "Before order details Table"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:338
+msgid "After order details Table"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:344
+msgid "Review Order Page"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:350
+msgid "None (Hide Coupon form from every step.)"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:356
+msgid "Show/Hide Product Thumbnail"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:374
+msgid "Show/Hide Additional Details"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:391
+msgid "Animation"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:396
+msgid "Fade"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:402
+msgid "Slide"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:408
+msgid "Zoom"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:414
+msgid "Steps orientation"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:419
+msgid "Horizontal"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:425
+msgid "Vertical"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:433
+msgid "Remove Numbers"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:452
+msgid "Zip/Postcode Validation"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:478
+msgid "Steps Layout"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:478
+msgid "Select the step layouts"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:507
+msgid "Background color for active steps"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:512
+msgid "Number Background color for steps"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:517
+msgid "Background color for inactive steps"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:522
+msgid "Background color for completed steps"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:527
+msgid "Step font color"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:532
+msgid "Buttons Color"
+msgstr ""
+
+#: inc/bpwcmsc_options.php:537
+msgid "Buttons Font color"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:15
+#: woocommerce/checkout/form-checkout.php:487
+msgid "Skip Login"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:16
+#: woocommerce/checkout/form-checkout.php:489
+msgid "Next"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:17
+#: woocommerce/checkout/form-checkout.php:488
+msgid "Previous"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:18
+#: woocommerce/checkout/form-checkout.php:490
+msgid "Place Order"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:19
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:200
+msgid "This field is required"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:20
+msgid "Invalid Email address"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:21
+msgid "Invalild phone number"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:23
+msgid "Please check Terms and Condition"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:24
+#: woocommerce/checkout/form-checkout.php:60
+#: woocommerce/checkout/form-checkout.php:147
+#: woocommerce/global/form-login.php:136
+msgid "Login"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:28
+#: woocommerce/checkout/form-checkout.php:71
+#: woocommerce/checkout/form-checkout.php:165
+msgid "Coupon"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:32
+#: woocommerce/checkout/form-checkout.php:88
+#: woocommerce/checkout/form-checkout.php:216
+msgid "Billing"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:35
+#: woocommerce/checkout/form-checkout.php:97
+#: woocommerce/checkout/form-checkout.php:257
+msgid "Shipping"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:38
+#: woocommerce/checkout/form-checkout.php:81
+msgid "Billing & Shipping"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:42
+#: woocommerce/checkout/form-checkout.php:105
+msgid "Order details"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:46
+#: woocommerce/checkout/form-checkout.php:112
+#: woocommerce/checkout/form-checkout.php:345
+#: woocommerce/checkout/form-checkout.php:379
+msgid "Payment"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:49
+#: woocommerce/checkout/form-checkout.php:119
+#: woocommerce/checkout/form-checkout.php:377
+msgid "Order & Payment"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:53
+#: woocommerce/checkout/form-checkout.php:129
+#: woocommerce/checkout/form-checkout.php:445
+msgid "Review order"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:57
+msgid "I am new to store"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:156
+msgid "Settings"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:177
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:188
+msgid "Settings saved"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:427
+msgid "Customer Details"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:431
+msgid "Billing Address"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:436
+msgid "Email:"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:440
+msgid "Phone:"
+msgstr ""
+
+#: inc/class-boostplugins-WooCommerce-Multistep-Checkout.php:447
+msgid "Shipping Address"
+msgstr ""
+
+#: view/boostplugins_step_preveiw.php:8
+msgid "You do not have access to this page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:32
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:192
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:241
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:287
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:28
+msgid "Product"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:29
+#: woocommerce/checkout/review-order.php:112
+msgid "Total"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:65
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/global/form-login.php:37 woocommerce/global/form-login.php:86
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:41 woocommerce/global/form-login.php:90
+#: woocommerce/global/form-login.php:150 woocommerce/global/form-login.php:212
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:51 woocommerce/global/form-login.php:102
+#: woocommerce/global/form-login.php:160
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:55 woocommerce/global/form-login.php:106
+#: woocommerce/global/form-login.php:164
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/global/form-login.php:146
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/global/form-login.php:183
+msgid "Register"
+msgstr ""
+
+#: woocommerce/global/form-login.php:198
+msgid "Username"
+msgstr ""
+
+#: woocommerce/global/form-login.php:205
+msgid "Email address"
+msgstr ""

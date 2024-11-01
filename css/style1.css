@@ -1,0 +1,295 @@
+#bpwcmscSteps .steps {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin: 50px 0 0 0
+}
+#bpwcmscSteps .tab-content {
+  margin: 50px 0 0 0;
+}
+
+#bpwcmscSteps.vertical .steps {
+  display: inline;
+  float: left;
+  width: 30%
+}
+
+#bpwcmscSteps .steps ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin: 0;
+  padding: 0
+}
+
+#bpwcmscSteps .steps ul li {
+  display: block;
+  float: left;
+  width: 25%;
+  font-size: 14px;
+  text-align: center;
+  position: relative
+}
+
+#bpwcmscSteps .steps ul li .number {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 47px;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 auto 10px;
+  position: relative;
+  z-index: 1
+}
+#bpwcmscSteps .steps ul li .checkmark {
+  display: block;
+  width: 45px !important;
+  height: 45px !important;
+  background-image: url('../images/check_white.svg');
+  border-radius: 100%;
+  text-align: center;
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px;
+  margin: 0 auto;
+}
+#bpwcmscSteps .steps ul li.disabled .checkmark {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 47px;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    background-image: url('../images/disabled.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 19px;
+    margin: 0 auto;
+}
+
+
+#bpwcmscSteps.vertical .steps ul li .namebox {vertical-align: top; padding-top: 10px; display: inline-block;}
+#bpwcmscSteps .steps ul li a {
+  font-size: 14px;
+  letter-spacing: .04em;
+  padding: 0;
+  z-index: 1;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  box-shadow: none;
+  border-bottom: none;
+  outline: 0
+}
+
+#bpwcmscSteps .steps ul li a:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 22px;
+  height: 2px;
+  width: 100%
+}
+
+#bpwcmscSteps .content .tab-pane input {
+  border: 1px solid #ccc
+}
+
+#bpwcmscSteps .content .tab-pane label {
+  display: inline-block;
+  margin-bottom: .5em
+}
+
+#bpwcmscSteps>.actions {
+  position: relative;
+  display: block;
+  text-align: right;
+  width: 100%
+}
+
+#bpwcmscSteps>.actions>ul {
+  display: inline-block;
+  text-align: right
+}
+
+#bpwcmscSteps>.actions>ul>li {
+  margin: 0 .5em
+}
+
+#bpwcmscSteps>.actions a, #bpwcmscSteps>.actions a:hover, #bpwcmscSteps>.actions a:active {
+  display: block;
+  padding: .5em 1em;
+  text-decoration: none;
+  border: none;
+  font-weight: 400;
+  box-shadow: none;
+  border-bottom: none
+}
+
+#bpwcmscSteps form.login input.button, #bpwcmscSteps form.register input.button {
+  display: block;
+  padding: 1em 2em;
+  text-decoration: none;
+  border: none;
+  font-weight: 400;
+  box-shadow: none;
+  margin-bottom: 10px
+}
+
+#bpwcmscSteps ul {
+  list-style: none !important;
+  padding: 0;
+  margin: 0 !important
+}
+
+#bpwcmscSteps .steps ul li.error a:before {
+  background: #b81c23 !important
+}
+
+#bpwcmscSteps .steps ul li.error .number {
+  background: #b81c23 !important;
+  color: #fff !important
+}
+#bpwcmscSteps .steps ul li.error .checkmark {
+  background-color: #b81c23 !important;
+  color: #fff !important
+}
+
+#bpwcmscSteps>.steps>ul>li {
+  width: 25%
+}
+
+#bpwcmscSteps>.steps>ul>li, #bpwcmscSteps>.actions>ul>li {
+  float: left;
+  margin-left: 0
+}
+
+#bpwcmscSteps .checkout_coupon .form-row-last, #bpwcmscSteps .checkout_coupon .form-row-first {
+  margin: 0
+}
+
+#bpwcmscSteps .checkout_coupon .form-row-last input {
+  background-color: #222;
+  border: 0;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block !important;
+  font-size: .875rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 1em 2em;
+  text-shadow: none;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s
+}
+
+#bpwcmscSteps #payment ul.payment_methods, #bpwcmscSteps #payment ul.payment_methods {
+  border-bottom: none;
+  padding-bottom: 5px
+}
+
+#bpwcmscSteps #payment #place_order, #bpwcmscSteps #payment #place_order {
+  float: right;
+  display: none
+}
+
+#bpwcmscSteps .steps .tab-pane .tab-pane-info.audible {
+  display: none
+}
+
+#bpwcmscSteps h1.title.tab-pane {
+  display: block
+}
+
+#bpwcmscSteps h1.title {
+  display: none
+}
+
+#bpwcmscSteps>.actions a, #bpwcmscSteps>.actions a:hover, #bpwcmscSteps>.actions a:active, #bpwcmscSteps form.login input.button, #bpwcmscSteps form.register input.button {
+  background: #81d742;
+  color: #fff
+}
+
+#bpwcmscSteps>.actions .disabled a {
+  background: #eee;
+  color: #aaa
+}
+
+#bpwcmscSteps .steps ul li.error a {
+  color: #b81c23 !important
+}
+
+< !--CSS FOR VERTICAL-->#bpwcmscSteps.vertical>.steps {
+  display: inline;
+  float: left;
+  width: 30%
+}
+
+#bpwcmscSteps.vertical .steps ul {
+  display: block
+}
+
+#bpwcmscSteps.vertical>.steps>ul>li {
+  float: none;
+  width: 100%
+}
+
+#bpwcmscSteps.vertical .steps a, #bpwcmscSteps.vertical .steps a:hover, #bpwcmscSteps.vertical .steps a:active {
+  text-align: left
+}
+
+#bpwcmscSteps.vertical>.content {
+  display: inline;
+  float: left;
+  margin: 0 2.5% .5em 2.5%;
+  width: 65%
+}
+
+#bpwcmscSteps.vertical>.actions {
+  display: inline;
+  float: right;
+  margin: 0 2.5%;
+  width: 95%
+}
+
+#bpwcmscSteps.vertical>.actions>ul>li {
+  margin: 0 0 0 1em
+}
+
+#bpwcmscSteps.vertical .steps ul li a:before {
+  left: 21px;
+  top: 44px;
+  height: 55%;
+  width: 2px
+}
+
+#bpwcmscSteps.vertical .steps ul li .number {
+  display: inline-block;
+  margin: 0 10px 50px auto
+}
+#bpwcmscSteps.vertical .steps ul li .checkmark {
+  display: inline-block !important;
+  margin: 0 10px 50px auto !important;
+}
+
+#bpwcmscSteps.vertical .steps ul li:last-child a:before {
+  display: none
+}
+
+< !--END CSS FOR VERTICAL-->

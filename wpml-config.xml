@@ -1,0 +1,42 @@
+<wpml-config>   
+    <admin-texts>
+        <key name="boostpluigns_skip_login_label" />
+        <key name="boostpluigns_next_button_lable" />
+        <key name="boostpluigns_prev_button_lable" />
+        <key name="boostpluigns_place_order" />
+        <key name="boostpluigns_required_error" />
+        <key name="boostpluigns_email_error" />
+        <key name="boostpluigns_phone_error" />
+        <key name="boostpluigns_postcode_error" />
+        <key name="boostpluigns_tnc_error" />
+        <key name="boostpluigns_login_label" />
+        <key name="boostpluigns_login_page_title" />
+        <key name="boostpluigns_login_page_text" />
+        <key name="boostpluigns_coupon_label" />
+        <key name="boostpluigns_coupon_page_title" />
+        <key name="boostpluigns_coupon_page_text" />
+        <key name="boostpluigns_billing_label" />
+        <key name="boostpluigns_billing_page_title" />
+        <key name="boostpluigns_billing_page_text" />
+        <key name="boostpluigns_shipping_label" />
+        <key name="boostpluigns_shipping_page_title" />
+        <key name="boostpluigns_shipping_page_text" />
+        <key name="boostpluigns_billing_shipping_label" />
+        <key name="boostpluigns_billing_shipping_page_title" />
+        <key name="boostpluigns_billing_shipping_page_text" />
+        <key name="boostpluigns_order_label" />
+        <key name="boostpluigns_order_details_page_title" />
+        <key name="boostpluigns_order_details_page_text" />
+        <key name="boostpluigns_payment_label" />
+        <key name="boostpluigns_payment_page_title" />
+        <key name="boostpluigns_payment_page_text" />
+        <key name="boostpluigns_review_order_label" />
+        <key name="boostpluigns_order_review_page_title" />
+        <key name="boostpluigns_order_review_page_text" />
+        <key name="boostpluigns_order_payment_label" />
+        <key name="boostpluigns_order_payment_page_title" />
+        <key name="boostpluigns_order_payment_page_text" />
+        <key name="boostpluigns_register_page_title" />
+        <key name="boostpluigns_register_page_text" />
+    </admin-texts>
+</wpml-config>

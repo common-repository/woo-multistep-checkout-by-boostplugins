@@ -1,0 +1,250 @@
+.clearfix:before,.clearfix:after{
+    content:" ";
+    display:table
+}
+.clearfix:after,#bpwcmscSteps{
+    clear:both
+}
+.clearfix{
+    *zoom:1
+}
+/*20-05-2018*/
+form.checkout,.container-coupon-login-form{
+    /*display:none*/
+}
+form.woocommerce-form-login,
+form.checkout_coupon {
+	display: block !important;
+}
+.woocommerce-info {
+	display: none !important;
+}
+#bpwcmscSteps .tab-content .tab-pane.bpwcmsc-zoom {
+animation:animatezoom 0.6s}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}
+}
+#bpwcmscSteps .tab-content .tab-pane.bpwcmsc-fade {animation:fading 1s}
+@keyframes fading{0%{opacity:0}100%{opacity:1}
+}
+#bpwcmscSteps .tab-content .bpwcmsc-slide.traversed.done {
+   position:relative; animation:animateright 0.4s;}
+   @keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
+}
+#bpwcmscSteps .tab-content .tab-pane.bpwcmsc-slide {
+    position:relative;animation:animateleft 0.4s}
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+
+
+#pagination li {
+	display: none;
+}
+/*20-05-2018*/
+.error-msg{
+    color:#8a1f11
+}
+label.error-class{
+    color:#8a1f11!important;
+    display:block
+}
+.terms-error{
+    color:#8a1f11!important;
+    clear:both;
+    display:block
+}
+#s2id_billing_state.invalid-state,#s2id_shipping_state.invalid-state{
+    border:1px solid #a00!important
+}
+.wizard>.content>.body input[type="radio"]{
+    display:inline-block
+}
+.wizard .coupon-step.current .checkout_coupon{
+    display:block!important
+}
+.bpwcmsc-loading-img{
+    display:block;
+    margin:10px auto;
+    text-align:center;
+    border:none;
+    border-radius:0!important;
+    box-shadow:none!important
+}
+table.have-thumnails div{
+    display:inline-block;
+    vertical-align:middle
+}
+table.have-thumnails .product-name .bpwcmsc-product-img{
+    max-width:50px;
+    padding-right:10px
+}
+#bpwcmscSteps .checkout_coupon{
+    text-align:center;
+    padding:34px;
+    max-width:600px;
+    margin:30px auto 10px;
+    border:2px dashed #ddd;
+    border-radius:0;
+    display:block!important
+}
+#bpwcmscSteps .checkout_coupon .form-row.form-row-last{
+    float:left
+}
+#bpwcmscSteps .woocommerce-Button{
+    background:#5d2e78;
+    color:#fff
+}
+.w3nSteps>.actions{
+    clear:both
+}
+#bpwcmscSteps .content{
+    clear:both;
+    box-sizing:border-box;
+    margin-top: 0px;
+}
+#bpwcmscSteps.vertical .content{
+    clear:none!important;
+    box-sizing:border-box
+}
+#place_order{
+    display:none
+}
+.woocommerce-error,.woocommerce-info,.woocommerce-message{
+    padding:2em!important
+}
+#bpwcmscSteps .steps .current .current-info.audible{
+    display:none
+}
+#ship-to-different-address label input[type="checkbox"]:checked + span::after{
+    right:-45px!important
+}
+#ship-to-different-address label span::before{
+    right:-50px!important
+}
+#ship-to-different-address label span::after{
+    right:-35px!important
+}
+.bpwcmsc-customer-addresses{
+    display:inline-flex;
+    width: 100%;
+}
+.bpwcmsc-customer-addresses .bpwcmsc-billing-details{
+    margin-right:25px!important;
+    width: 50%;
+}
+.bpwcmsc-billing-details .bpwcmsc-billing-address p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.bpwcmsc-shipping-details .bpwcmsc-shipping-address p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.customer-email{
+  float: left;
+    width: 100%;
+}
+.customer-phone{
+  float: left;
+    width: 100%;
+}
+.email-lable {
+  float: left;
+  margin-right: 6px;
+}
+.phone-lable {
+  float: left;
+  margin-right: 6px;
+}
+.bpwcmsc-customer-phone-email {
+  margin-top: 15px;
+  float: left;
+  width: 100%;
+}
+.bpwcmsc-customer-phone-email p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#bpwcmscSteps .error-field + .select2-container .select2-selection,
+#bpwcmscSteps .error-field,
+#bpwcmscSteps .content label.term-error {
+    display: block ;
+    border: 1px solid #ff0000 !important;
+}
+#bpwcmscSteps .content .term-error {
+  padding:10px;
+}
+
+#bpwcmscSteps .content .tab-pane label.error-label {
+  color: #ff0000;
+  display: inline-block;
+  font-weight: 400;
+}
+
+#bpwcmscSteps .steps ul li.disabled a { cursor: not-allowed; }
+
+.woocommerce { position: relative; }
+.bpwcmscPageLoader {
+    z-index: 1000;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    cursor: default;
+    position: absolute;
+}
+.bpwcmscPageLoader::before {height: 1em;
+    width: 1em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.5em;
+    margin-top: -.5em;
+    content: '';
+    -webkit-animation: spin 1s ease-in-out infinite;
+    animation: spin 1s ease-in-out infinite;
+    background: url(../images/loader.svg) center center;
+    background-size: cover;
+    line-height: 1;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(0,0,0,.75);
+}
+#bpwcmsc-register, #bpwcmsc-login { padding: 1em 2em; border: 0;}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@media(max-width:767px){
+    .wizard.three-steps>.steps>ul>li{
+        width:100%
+    }
+    .actions.clearfix li{
+        clear:none!important;
+        display:inline-block;
+        float:left
+    }
+    #bpwcmscSteps .steps ul li{
+        width:100%!important
+    }
+}
+.woocommerce form.checkout #order_review,.woocommerce form.checkout #order_review_heading,.woocommerce form.checkout .col-2{
+    display:block!important
+}
+
+/* animation */ /*
+.spin{animation:spin 2s infinite linear}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+*/
